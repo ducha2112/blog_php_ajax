@@ -48,7 +48,7 @@
             $('#invisible').fadeIn(1000);
             $('#invisible').css('position','fixed');
 
-        },1000);
+        },10000);
         $('#close').bind('click',function (){
             $('#invisible').animate({bottom: '-=270px'},2000,()=>{
                 $('#close').hide();
