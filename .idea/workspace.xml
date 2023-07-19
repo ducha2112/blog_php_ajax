@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e86e03e-3418-4c76-ae1e-1a681a948fe1" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. Р.Савин. Тестирование dot com.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/.idea/htdocs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/components/Db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/components/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/config/db_params.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/controllers/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/controllers/NewsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/models/News.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/template/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/template/images/img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/template/images/img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/template/images/img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/template/images/img04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/template/images/img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/views/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/views/news/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVS/views/news/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example-app/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/processorder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Веллинг Л., Томсон Л. - Разработка веб-приложений с помощью PHP/Chapter01.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа _Дадухин_СЕ.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа Дадухин_СЕ.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/.idea/Итоговая работа.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/images/VK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/images/email.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/images/tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/images/whatsapp-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/images/youtube.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/style_admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/style_admin_news.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/style_cabinet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/style_contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/style_enter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Style/style_register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/admin_news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/cabinet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/components/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/components/footer2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/components/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/components/header2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/components/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/contacts2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/enter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/gumus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/Tapiau/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/VK - копия.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/VK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/authors/borisova.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/authors/krasheninnikov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/authors/manihin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/email - копия.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/email.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/gumus/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/gumus/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/gumus/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/gumus/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/img_16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/map - копия.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/35026_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/news/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/pomestia/center.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/pomestia/field1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/pomestia/field2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/pomestia/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/pomestia/land1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/pomestia/land2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/pomestia/tip1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/project/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/project/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/project/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/project/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/project/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/tel - копия.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/wateralive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/whatsapp-logo - копия.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/whatsapp-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/youtube - копия.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/youtube-clipart-white-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/images/youtube.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/news_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/pomestia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/tapiau.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Дампы БД/news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Итоговая работа/Дампы БД/users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/SQL/shop_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/create read update delete/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/create read update delete/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/.idea/news_0753.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/authors/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/black-holes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/chang_zheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/jupiter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/leclerc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/melbourne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/riccardo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/science_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/science_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/science_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/shumi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/space_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/images/news/wolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/news_db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/news_0753/news_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/php/PHP_8_объекты,_шаблоны_и_методики_программирования_6е_изд.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/php/get.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/php/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/php/news_item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/php/reguliarka.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/cars.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/img/ferrarif50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/img/koenigsegg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/img/lamborghinicountach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/server/carsList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/server/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/server/oneCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars sql-php-js/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/cars.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/img/ferrarif50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/img/img.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/img/koenigsegg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/img/lamborghinicountach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/server/carslist.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/server/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/server/oneCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/server-js/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Арх/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Арх/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Арх/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Арх/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Арх/shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/.idea/БД.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/archiv sql.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/create read update delete.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/customers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/products.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/salesreps.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/юзеры/SD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/юзеры/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/юзеры/index.lnk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД/юзеры/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД2/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД2/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/БД2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Загрузка файлов в бд/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Загрузка файлов в бд/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Загрузка файлов в бд/загрузка картинок на сервер.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/.idea/Итоговая работа.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/components/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/components/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/components/header2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/db_connect/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/Tapiau.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/VK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/authors/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/email.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/img_16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/black-holes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/chang_zheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/jupiter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/leclerc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/melbourne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/riccardo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/science_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/science_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/science_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/shumi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/space_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/news/wolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/pomestia/field1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/pomestia/field2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/pomestia/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/pomestia/land1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/pomestia/land2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/pomestia/tip1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/wateralive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/whatsapp-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/youtube-clipart-white-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/youtube.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images/лого.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/authors/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/black-holes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/chang_zheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/jupiter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/leclerc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/melbourne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/riccardo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/science_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/science_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/science_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/shumi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/space_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/images_news/news/wolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/news_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/pomestia.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/registr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/tapiau.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/Итоговая работа.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Итог/бегет.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/.idea/Новости с ООП.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/classes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/authors/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/black-holes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/chang_zheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/jupiter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/leclerc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/melbourne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/riccardo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/science_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/science_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/science_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/shumi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/space_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/images/news/wolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости с ООП/news_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/SD.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/authors/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/black-holes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/chang_zheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/jupiter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/leclerc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/melbourne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/riccardo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/science_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/science_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/science_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/shumi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/space_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/images/news/wolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/news_0753.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Новости/news_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/ООП/index ООП.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/ООП/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/ООП/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Обработка запросов php/archiv1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проверка формы/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проверка формы/validate form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/.idea/Проект.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/components/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/components/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/Tapiau.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/VK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/center.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/email.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/field1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/field2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/img_16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/land1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/land2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/tip1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/wateralive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/whatsapp-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/youtube-clipart-white-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/youtube.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images/лого.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/authors/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/black-holes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/chang_zheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/jupiter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/leclerc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/melbourne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/riccardo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/science_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/science_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/science_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/shumi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/space_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news/wolf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/images_news/news_detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/news.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/about project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/answer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/Tapiau.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/VK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/center.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/email.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/field1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/field2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/img_16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/land1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/land2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/tip1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/wateralive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/whatsapp-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/youtube-clipart-white-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/youtube.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/images/лого.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/pages.html/tapiau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/registr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/tapiau.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/Проект.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/бегет.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Проект/пароль хоста.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/.idea/Регистрация с записью БД,проверка входа.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/cabinet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/enter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Регистрация с записью БД,проверка входа/registr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/.idea/Проект.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/about project.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/answer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/components/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/components/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/Tapiau.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/VK.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/center.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/email.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/field1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/field2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/img_16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/land1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/land2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/tel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/tip1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/wateralive.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/whatsapp-logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/youtube-clipart-white-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/youtube.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/images/лого.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/registr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/tapiau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/tapiau.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/Проект.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт Можайские поместья/пароль хоста.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/components/aside.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/components/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/components/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/news_item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сайт инклюд/shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия регистрация/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия регистрация/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия регистрация/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия регистрация/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия юзера зарег/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия юзера зарег/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия юзера зарег/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/Сессия юзера зарег/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/англо-русский словарь/vocabulary.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/англо-русский словарь/vocabulary.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/англо-русский словарь/vocabulary_0520.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/archiv1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/get.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/news_item.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/арх2/shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/.idea/аутентификация.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/cabinet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/db_connect.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/enter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/аутентификация/users.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/.idea/куки.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/cookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/cookie_first_name.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/cookies_final.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/куки/вход на сайт админа.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/images/Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/images/authors/petrov.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 11/Лаб 11.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 11/Лаб раб 11_Дадухин СЕ.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 4/Лаб раб 4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 4/Лаб раб 4_Дадухин СЕ.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 5/Лаб раб 5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 5/Лаб раб 5_Дадухин СЕ.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/.idea/Лаб 7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/help.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/news.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/Лаб 7/shop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб 1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб 1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб 1/.idea/лаб 1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб 1/Лаб раб 1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб 3/Лаб раб 3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб 3/Лаб раб 3_Дадухин СЕ.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб2/Лаб раб 2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/лабы/лаб2/Лаб раб 2_Дадухин СЕ.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/форма POST/arr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/форма POST/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Новая папка/форма POST/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ТЗ сайта Можайские Поместья.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/example-app/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="6e363ea8-0d45-493f-8ac2-61d1c6d5df80" name="XAMPP" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP(8.1.6)">
+    <include_path>
+      <path value="$PROJECT_DIR$/example-app/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/example-app/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/example-app/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/example-app/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/example-app/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/example-app/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/example-app/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/example-app/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/example-app/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/example-app/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/example-app/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/example-app/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/example-app/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/example-app/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/example-app/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/example-app/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/example-app/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/example-app/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/example-app/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/sail" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/pint" />
+      <path value="$PROJECT_DIR$/example-app/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/example-app/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/example-app/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/example-app/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/laravel-ignition" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/ignition" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/flare-client-php" />
+      <path value="$PROJECT_DIR$/example-app/vendor/spatie/backtrace" />
+      <path value="$PROJECT_DIR$/example-app/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/example-app/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/example-app/vendor/composer" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/config" />
+      <path value="$PROJECT_DIR$/example-app/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/example-app/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/example-app/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/example-app/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/example-app/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/example-app/vendor/psr/container" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="2E4b3OYm9JDY2kriVgsvndffmXp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\server\htdocs\img" />
+      <recent name="D:\server\htdocs\uploads" />
+      <recent name="D:\server\htdocs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\server\htdocs\server" />
+      <recent name="D:\server\htdocs" />
+      <recent name="D:\server\htdocs\лабы\лаб 1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e86e03e-3418-4c76-ae1e-1a681a948fe1" name="Changes" comment="" />
+      <created>1661857606258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661857606258</updated>
+      <workItem from="1661857607805" duration="8000" />
+      <workItem from="1661870175244" duration="180000" />
+      <workItem from="1661870713018" duration="218000" />
+      <workItem from="1661870932121" duration="11915000" />
+      <workItem from="1661965774752" duration="802000" />
+      <workItem from="1662009221356" duration="790000" />
+      <workItem from="1662011057347" duration="22170000" />
+      <workItem from="1662045397249" duration="5737000" />
+      <workItem from="1662098277263" duration="8157000" />
+      <workItem from="1662355365236" duration="29491000" />
+      <workItem from="1662441524528" duration="26097000" />
+      <workItem from="1662527713464" duration="18170000" />
+      <workItem from="1662568822440" duration="4174000" />
+      <workItem from="1662614606366" duration="17591000" />
+      <workItem from="1662644423098" duration="56000" />
+      <workItem from="1662644893295" duration="8750000" />
+      <workItem from="1662700941489" duration="1469000" />
+      <workItem from="1662702438443" duration="1726000" />
+      <workItem from="1662704203680" duration="2377000" />
+      <workItem from="1662706622035" duration="10907000" />
+      <workItem from="1662958900411" duration="92000" />
+      <workItem from="1662959762532" duration="21366000" />
+      <workItem from="1662994733147" duration="8892000" />
+      <workItem from="1663045738971" duration="17283000" />
+      <workItem from="1663073397944" duration="2864000" />
+      <workItem from="1663089026922" duration="2817000" />
+      <workItem from="1663130824523" duration="18086000" />
+      <workItem from="1663158473218" duration="3279000" />
+      <workItem from="1663161922775" duration="237000" />
+      <workItem from="1663162204489" duration="591000" />
+      <workItem from="1663226854026" duration="3607000" />
+      <workItem from="1663303247680" duration="2124000" />
+      <workItem from="1663307632567" duration="6738000" />
+      <workItem from="1663333937682" duration="1401000" />
+      <workItem from="1663335374569" duration="1498000" />
+      <workItem from="1663565412516" duration="15445000" />
+      <workItem from="1663591369412" duration="7826000" />
+      <workItem from="1663652086109" duration="87000" />
+      <workItem from="1663652207906" duration="20331000" />
+      <workItem from="1663680602901" duration="112000" />
+      <workItem from="1663738537079" duration="116000" />
+      <workItem from="1663738656753" duration="17099000" />
+      <workItem from="1663764870862" duration="1363000" />
+      <workItem from="1663825262315" duration="12327000" />
+      <workItem from="1663848778882" duration="270000" />
+      <workItem from="1663911585502" duration="17366000" />
+      <workItem from="1663938986072" duration="42000" />
+      <workItem from="1664170549736" duration="15399000" />
+      <workItem from="1664196346802" duration="705000" />
+      <workItem from="1664197083903" duration="162000" />
+      <workItem from="1664256633701" duration="17046000" />
+      <workItem from="1664280456134" duration="656000" />
+      <workItem from="1664344089866" duration="871000" />
+      <workItem from="1664358764626" duration="3494000" />
+      <workItem from="1664370398953" duration="220000" />
+      <workItem from="1664429740900" duration="7317000" />
+      <workItem from="1664442434941" duration="4814000" />
+      <workItem from="1664451053511" duration="209000" />
+      <workItem from="1664880969999" duration="2979000" />
+      <workItem from="1664967449779" duration="764000" />
+      <workItem from="1665047801787" duration="1025000" />
+      <workItem from="1667312080038" duration="176000" />
+      <workItem from="1667312288281" duration="47000" />
+      <workItem from="1667312516661" duration="635000" />
+      <workItem from="1674229647610" duration="92000" />
+      <workItem from="1674388529785" duration="85000" />
+      <workItem from="1678652298064" duration="2184000" />
+      <workItem from="1678698284202" duration="598000" />
+      <workItem from="1684248466468" duration="126000" />
+      <workItem from="1684488321282" duration="940000" />
+      <workItem from="1689523700064" duration="477000" />
+      <workItem from="1689524695962" duration="2655000" />
+      <workItem from="1689671778772" duration="11999000" />
+      <workItem from="1689699301812" duration="8453000" />
+      <workItem from="1689754842481" duration="20648000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/куки/exit.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

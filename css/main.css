@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #eee;
+  font-weight: 300;
+}
+header {
+  background: #222;
+  padding: 20px 100px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  transition: all 0.5s ease;
+}
+header nav a.btn {
+  padding: 5px;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+
+header nav a:hover {
+  color: #a1a1a1;
+}
+header nav a.btn:hover {
+  border-color: #f1caca;
+}
+main {
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  width: 50%;
+}
+aside {
+  float: right;
+  margin-top: 15px;
+  margin-right: 100px;
+  width: 450px;
+}
+.aside{
+  width: 90%;
+  margin: 35px 5%;
+  border: 3px solid #222;
+  border-radius: 5px;
+  padding: 20px;
+}
+aside .info {
+  color: #42410c;
+  background: #ecd89e;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 140%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+aside .info h2 {
+  margin-bottom: 10px;
+}
+aside img {
+  width: 100%;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+aside #invisible{
+  display: none;
+  z-index: 2;
+  bottom: 0px;
+  left: 1050px;
+  border: 3px solid #fceaea;
+  border-radius: 0 25px 0 0;
+  width: 485px;
+
+  background: #dadee5;
+}
+aside #invisible .upper #on {
+  display: none;
+}
+aside #invisible .upper {
+  border-radius: 0 25px 0 0;
+  background: #222;
+  padding: 5px;
+  color: #928888;
+}
+aside #invisible .upper div {
+ cursor: pointer;
+}
+aside #invisible .upper #on {
+  display: none;
+}
+aside #invisible .upper h4 {
+ margin: 10px 0 25px 20px;
+}
+
+aside #invisible  .contur {
+  padding: 20px;
+}
+aside #invisible .chat {
+  width: 100%;
+  margin-top: 30px;
+}
+aside #invisible .chat .show_mess {
+  width: 95%;
+  padding: 10px 12px;
+  border-radius: 5px;
+  background: #f8ecc8;
+  color: #222;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+aside #invisible .chat form input#mess {
+  width: 93%;
+  transform: none;
+}
+.aside h2 {
+  margin-top: 20px;
+}
+
+form {
+  margin: 30px 0;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+form button,
+aside form button#mess_send {
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #f5d77e;
+  color: #42410c;
+  transition: transform 0.5s ease;
+}
+
+.btn_del {
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #e3b4bb;
+  color: #42410c;
+  font-size: 16px;
+  transition: transform 0.5s ease;
+}
+form button:hover,
+.btn:hover,
+.post a:hover {
+  transform: scale(1.05);
+}
+aside form button#mess_send {
+  background: green;
+  color: #fff;
+}
+form input,
+form textarea {
+  width: 100%;
+  resize: vertical;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.error-mess {
+  color: #de7474;
+  margin: 10px 0;
+  display: none;
+  font-weight: 600;
+}
+.user {
+  margin: 10px 0;
+  padding: 10px;
+  background: #ead8a1;
+  display: flex;
+  justify-content: space-between;
+}
+.post {
+  width: 100%;
+  border: 3px solid #222;
+  border-radius: 5px;
+  background: #beecb6;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+.post img {
+  width: 250px;
+}
+.post h1 {
+  margin-bottom: 10px;
+}
+.post .author {
+  margin-top: 15px;
+  font-weight: 600;
+}
+.post .author span {
+  background: #e3cd8b;
+  padding: 2px 7px;
+  font-weight: 300;
+}
+.post a {
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  width: 100px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: #e3d19d;
+  color: #42410c;
+  transition: transform 0.5s ease;
+}
+#article_del {
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background: #ec6c7d;
+  color: #42410c;
+  font-size: 16px;
+  transition: transform 0.5s ease;
+  margin-bottom: 50px;
+}
+#article_del:hover {
+  transform: scale(1.05);
+}
+.comment {
+  width: 100%;
+  background: #b4fc81;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #42410c;
+  margin-bottom: 30px;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  background: #222;
+  margin-top: 100px;
+  padding: 30px;
+  color: #fff;
+  box-sizing: border-box;
+}

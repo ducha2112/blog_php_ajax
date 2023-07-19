@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+
+
+ErrorDocument 404 /error.php
+# ErrorDocument 500 /error500.php
+
+#rewriteRule ^register?$ register.php [NC, L]
