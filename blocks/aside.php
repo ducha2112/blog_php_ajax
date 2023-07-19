@@ -23,7 +23,7 @@
                 <div id="close">&otimes;</div>
                  <div id="on">&uArr;</div>
 
-            <h4>Здравствуйте! Напишите нам</h4>
+            <h4>Здравствуйте! Напишите нам в чат</h4>
         </div>
 
         <div class="contur">
