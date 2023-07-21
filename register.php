@@ -24,9 +24,10 @@
             <input type="login" name="login" id='login'>
 
             <label for="password">Пароль</label>
-            <input type="password" name="password" id='password'>
+            <input type="password" name="password" id='password'><br>
 
             <div class="error-mess" id="error-block"></div>
+
 
             <button type="button" id="reg_user">Зарегистрироваться</button>
         </form>
@@ -70,6 +71,7 @@
             }
         });
     });
+
     </script>
 </body>
 

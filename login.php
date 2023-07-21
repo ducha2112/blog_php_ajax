@@ -33,12 +33,14 @@
          $query->execute([$_COOKIE['log']]);
         $user = $query->fetch(PDO::FETCH_OBJ)
             ?>
-        <h2>Здравствуйте, <?=$user->name?></h2>
-            <p>Ваш логин: <?=$user->login?></p>
-            <p>Ваша почта: <?=$user->email?></p>
-        <form>
-            <button type="button" id="exit_user">Выйти</button>
-        </form>
+        <div class="cabinet">
+            <h2>Здравствуйте, <?=$user->name?></h2>
+                <p>Ваш логин: <?=$user->login?></p>
+                <p>Ваша почта: <?=$user->email?></p>
+             <form>
+                <button type="button" id="exit_user">Выйти</button>
+             </form>
+        </div>
         <?php endif; ?>
 
     </main>

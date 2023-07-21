@@ -8,6 +8,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background: #eee;
   font-weight: 300;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)),url('/img/newspapers.jpg');
 }
 header {
   background: #222;
@@ -62,7 +63,7 @@ aside {
 }
 aside .info {
   color: #42410c;
-  background: #ecd89e;
+  background: #e8debc;
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
@@ -103,6 +104,9 @@ aside #invisible .upper {
 aside #invisible .upper div {
  cursor: pointer;
 }
+#close,#on {
+    color: #fafafa;
+}
 aside #invisible .upper #on {
   display: none;
 }
@@ -133,6 +137,16 @@ aside #invisible .chat form input#mess {
 .aside h2 {
   margin-top: 20px;
 }
+.cabinet {
+  margin-bottom: 5px;
+  width: 100%;
+  border-radius: 5px;
+  border: 2px solid #222;
+  padding: 40px;
+  background: rgba(250,246,246,0.7);
+  color: #42410c;
+
+}
 
 form {
   margin: 30px 0;
@@ -140,12 +154,19 @@ form {
 form label {
   display: block;
   margin-bottom: 5px;
-  width: 100%;
-  cursor: pointer;
+  width: 200px;
+  border-radius: 50%;
+  text-align: center;
+  border: 2px solid #222;
+  padding: 5px 10px;
+  background: rgba(250,246,246,0.7);
+  color: #42410c;
 }
+
 form button,
 aside form button#mess_send {
   border: 0;
+  display: block;
   cursor: pointer;
   border-radius: 5px;
   padding: 10px 20px;
@@ -182,11 +203,20 @@ form textarea {
   padding: 10px 15px;
   font-size: 15px;
   margin-bottom: 10px;
+  background: #fafafa;
   font-family: "Montserrat", sans-serif;
+}
+input#uploaded_file  {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #42410c;
+  background: #faf6f6;
+  width: 300px;
+  resize: none;
 }
 
 .error-mess {
-  color: #de7474;
+  color: #090909;
   margin: 10px 0;
   display: none;
   font-weight: 600;

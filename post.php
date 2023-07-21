@@ -4,12 +4,15 @@
 <head>
 
     <?php
+    $id = $_GET['id'];
      require_once 'lib/mysql.php';
-     $sql =  'SELECT * FROM articles WHERE `id`=?';
-     $query = $pdo->prepare($sql);
-     $query->execute([$_GET['id']]);
+
+    $sql =  'SELECT * FROM articles WHERE `id`=?';
+    $query = $pdo->prepare($sql);
+    $query->execute([$id]);
 
      $article = $query->fetch(PDO::FETCH_OBJ);
+
 
     $website_title = $article->title;
     $date  = date("Y-m-d ", $article->date).'в '.date("H:i:s", $article->date);
@@ -62,7 +65,7 @@
             <?php
             $sql =  'SELECT * FROM comments WHERE `article_id`=? ORDER BY `id` DESC';
             $query = $pdo->prepare($sql);
-            $query->execute([$_GET['id']]);
+            $query->execute([$id]);
 
             $comments = $query->fetchAll(PDO::FETCH_OBJ);
 

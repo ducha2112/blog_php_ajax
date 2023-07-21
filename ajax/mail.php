@@ -16,16 +16,17 @@ else if(strlen($mess)<10)
     $error = 'Введите сообщение';
 
 if($error != ''){
-    echo $error; // выводим в консоль и это будет получено в функции success (data)
+    echo $error;
     exit();
 }
 
-$to = 'ducha2112@gmail.com';
-$subject = "?utf-8?B?".base64_decode("Новое сообщение")."?=";
-
+$to = 'ducha2112@yandex.ru';
+//$subject = "?utf-8?B?".base64_decode("Сообщение с сайта Blog Master")."?=";
+$subject = "Сообщение с сайта Blog Master";
 $mess = "Пользователь: $username <br>$mess";
+$message = wordwrap($mess, 70, "\r\n");
 $headers = "From: $email\r\nReplay-to: $email\r\nContent-type: text/html; charset=utf-8\r\n";
 
 mail($to,$subject,$mess, $headers);
 
-echo "Done"; // выводим в консоль и это будет получено в функции success (data) при отработке всего кода
+echo "Done";

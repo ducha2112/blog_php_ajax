@@ -29,7 +29,7 @@ $salt='hbfdskfjdbf;%$51654l';
 $pass = md5($salt.$pass);
 
 $sql = 'SELECT id,password FROM users WHERE `login` = ?';
-$query = $pdo->prepare($sql);
+$query = $GLOBALS['pdo']->prepare($sql);
 $query->execute([$login]);
 $user = $query->fetch(PDO::FETCH_OBJ);
 

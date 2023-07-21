@@ -1,7 +1,9 @@
 <?php
 
 if(!isset($_COOKIE['log'])){
+    echo "<h3 style='color: darkred'>Для отправки корреспонденции нужно зарегистрироваться</h3>";
   header('Location: register.php');
+
   exit();
 }
 ?>
@@ -15,7 +17,13 @@ if(!isset($_COOKIE['log'])){
     $website_title = 'Контакты';
     include 'blocks/head.php' ?>
 </head>
-
+<?php
+ require_once 'lib/mysql.php';
+$sql = 'SELECT * FROM `users` WHERE `login` = ?';
+$query = $pdo->prepare($sql);
+$query->execute([$_COOKIE['log']]);
+$user = $query->fetch(PDO::FETCH_OBJ);
+?>
 
 <body>
     <?php include 'blocks/header.php';?>
@@ -23,7 +31,7 @@ if(!isset($_COOKIE['log'])){
         <h1>Обратная связь</h1>
         <form>
             <label for="username">Ваше имя</label>
-            <input type="text" name="username" id='username'>
+            <input type="text" name="username" id='username' value="<?=$user->name?>">
 
             <label for="email">Email</label>
             <input type="email" name="email" id='email'>

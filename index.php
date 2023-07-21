@@ -19,7 +19,7 @@
          require_once 'lib/mysql.php';
          
          $sql =  'SELECT * FROM articles ORDER BY `date` DESC';
-         $query = $pdo->query($sql);
+         $query = $GLOBALS['pdo']->query($sql);
          while($row = $query->fetch(PDO::FETCH_OBJ)){
             echo <<< _HTML_
             <div class = 'post'>
